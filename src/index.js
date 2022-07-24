@@ -1,13 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import reportWebVitals from './reportWebVitals';
 import Landing from './composants/Landing';
+import reportWebVitals from './reportWebVitals';
 
-const wrapper = ReactDOM.createRoot(document.getElementById('wrapper'));
-wrapper.render(
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
   <React.StrictMode>
-    <Landing />
+      <Landing />
   </React.StrictMode>
 );
 
