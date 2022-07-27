@@ -2,6 +2,8 @@
     height: 75%;
     width: 70%;
     border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 40px;
 }
 .content-form input{
     width: 100%;
@@ -31,15 +33,16 @@
     margin-bottom: 20px;
 }
 .content-form-group .title{
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
     background: #000;
     text-align: center;
-    padding: 5px 0;
+    padding: 15px 0;
     margin-bottom: 20px;
 }
 .content-form{
-    padding: 20px
+    padding: 20px;
+    margin-bottom: 20px;
 }
 .content-form-group {
     background: #fff;

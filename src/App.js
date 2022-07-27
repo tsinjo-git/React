@@ -5,7 +5,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 
 function App() {
   return (
-    <div className="container-fluid vh-100 d-flex justify-content-center align-items-center">
+    <div className="big-content container-fluid vh-100 d-flex justify-content-center align-items-center">
         <Inscription/>
     </div>
     
