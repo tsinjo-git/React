@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
 import Inscription  from './composants/Inscription/Inscription';
 import 'bootstrap/dist/css/bootstrap.css';
