@@ -9,8 +9,8 @@ class Inscription extends Component{
         
       <div className="content row">
           <div className="col-md-6">
-                      <div className="title">
-                          <h2></h2>
+                      <div className="title-page">
+                          <h1>Save time by building <br/>fast <span className="green">with Boldo</span>  Template</h1>
                       </div>
           </div>
           <div className="col-md-6 d-flex justify-content-center align-items-center">

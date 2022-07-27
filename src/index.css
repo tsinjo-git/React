@@ -12,5 +12,20 @@ code {
     monospace;
 }
 .big-content{
-  background: #395B64
+  background: #0A2640;
+  position: relative;
+}
+.big-content:after{
+  content: "";
+  background-image: url(./images/cercle.png);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 60%;
+  width: 35%;
+  z-index: 0;
 }
