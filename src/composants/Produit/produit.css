@@ -1,0 +1,33 @@
+.img-prod img {
+    width: 65%;
+}
+.prod {
+    background: #fff;
+    padding: 30px !important;
+    border-radius: 10px;
+}
+.img-prod {
+    border: 4px solid #69E6A6;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    text-align: center
+}
+/* .contenu-prod {
+    margin-top: 150px;
+} */
+.navigate .nav-btn {
+    background: #ffffffc9;
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    cursor: pointer;
+}
+.navigate {
+    margin: 40px 60px;
+    display: flex;
+    justify-content: flex-end;
+}

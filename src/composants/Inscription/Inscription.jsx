@@ -13,7 +13,7 @@ class Inscription extends Component{
                           <h1>Save time by building <br/>fast <span className="green">with Boldo</span>  Template</h1>
                       </div>
           </div>
-          <div className="col-md-6 d-flex justify-content-center align-items-center">
+          <div className="col-md-6 d-flex justify-content-end align-items-center">
                       <div className="content-form-group col-md-7">
                             <div className="title">
                                 <h2>Créer votre compte</h2>
