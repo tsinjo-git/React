@@ -25,6 +25,6 @@
     background: #ffffff0d;
     z-index: 1;
   }
-h1, h2, h3, p, span{
-  font-family: 'DM Serif Display', serif !important;
+h1, h2, h3, p, span, ::placeholder, button{
+  font-family: 'Comfortaa', cursive !important;
 }
