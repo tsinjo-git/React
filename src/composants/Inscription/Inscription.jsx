@@ -11,7 +11,9 @@ class Inscription extends React.Component{
            nom: '',
            email: '',
            mdp: '',
-           mdp2: ''
+           mdp2: '',
+           user: ''
+
        }
        this.handleChange = this.handleChange.bind(this)
        this.handleSubmit = this.handleSubmit.bind(this)
@@ -25,12 +27,14 @@ class Inscription extends React.Component{
    }
    handleSubmit (e) {
         e.preventDefault()
-        this.setState({
-            nom: '',
-            email: '',
-            mdp: '',
-            mdp2: ''
-        })
+        console.log(this.state)
+        // this.setState({
+        //     nom: '',
+        //     email: '',
+        //     mdp: '',
+        //     mdp2: '',
+        //     user: ''
+        // })
    }
 
   render(){
@@ -70,7 +74,7 @@ class Inscription extends React.Component{
                                           <FaKey/>
                                     </div>
                                     <div className="focus col-md-11">
-                                        <input id="yourname" name="mdp" type="password" placeholder='Mot de passe' value={this.state.mdp} onChange={this.handleChange}/>
+                                        <input id="yourpasse" name="mdp" type="password" placeholder='Mot de passe' value={this.state.mdp} onChange={this.handleChange}/>
                                     </div>
                                 </div>
                                 <div className="direct-form row">
@@ -78,8 +82,14 @@ class Inscription extends React.Component{
                                           <FaKey/>
                                     </div>
                                     <div className="focus col-md-11">
-                                        <input id="yourname" name="mdp2" type="password" placeholder='Comfirmer mot de passe' value={this.state.mdp2} onChange={this.handleChange}/>
+                                        <input id="comfpasse" name="mdp2" type="password" placeholder='Comfirmer mot de passe' value={this.state.mdp2} onChange={this.handleChange}/>
                                     </div>
+                                </div>
+                                <div className="direct-form row">
+                                    
+                                    
+                                        <input id="yourfile" name="user" type="file" value={this.state.user} onChange={this.handleChange}/>
+                                    
                                 </div>
                                 <div className="send">
                                      <button type='submit'>Envoyer</button>

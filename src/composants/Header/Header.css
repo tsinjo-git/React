@@ -1,0 +1,36 @@
+.header{
+    top: 0;
+    z-index: 1;
+    width: 125px;
+    right: 0;
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.user svg, .user img {
+    color: #fff;
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+}
+.user:hover .sub {
+    display: inherit !important;
+    transition: all 0.5s ease-out;
+}
+.sub {
+    list-style-type: none;
+    padding: 0 !important;
+    list-style-type: none;
+    padding: 0 !important;
+    display: none;
+    transition: all 0.5s ease-out;
+    margin-top: 5px;
+}
+.sub li {
+    color: #0A2640;
+    background: #fff;
+    margin: 2px;
+    border-radius: 4px;
+    padding: 3px 5px;
+}

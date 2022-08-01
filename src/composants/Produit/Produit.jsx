@@ -46,7 +46,7 @@ class Produit extends Component{
                             <h2>Nettoyant surfaces </h2>
                         </div>
                         <div className="descri-prod">
-                            <p>Le nettoyant multi-surfaces L’Arbre Vert concentré s’utilise pour entretenir tous types de surfaces lavables : inox, émail, carrelage, aluminium, etc.</p>
+                            <p>Le nettoyant multi-surfaces L’Arbre Vert concentré s’utilise pour entretenir tous types de surfaces lavables.</p>
                         </div>
                 </div>
                 <div className="col-md-3 prod">

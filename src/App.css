@@ -17,7 +17,7 @@
     z-index: 0;
   }
   .content{
-    height: 75%;
+    min-height: 75%;
     width: 70%;
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
@@ -27,4 +27,7 @@
   }
 h1, h2, h3, p, span, ::placeholder, button{
   font-family: 'Comfortaa', cursive !important;
+}
+p {
+  font-size: 14px;
 }
